@@ -92,3 +92,76 @@ button {
     justify-content: center;
     
 }
+
+.section-1 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    padding: 45px 45px 120px 45px;
+}
+
+.top-text {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin-bottom: 48px;
+}
+.boxes {
+    display: flex;
+    justify-content: center;
+    column-gap: 35px;
+}
+
+.box {
+    border: 4px solid royalblue;
+    margin: 5px;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.one, .two, .three, .four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 0 0 10%;
+}
+
+.info {
+    padding: 5px;
+    color:#6d747d;
+}
+
+.section-2 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.thor {
+    max-width: 750px;
+    padding: 130px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 200;
+
+}
+
+.signature {
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 600;
+    text-align: right;
+    padding-right: 20px;
+}
+
