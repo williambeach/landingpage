@@ -15,6 +15,7 @@ body {
     padding: 5px 210px 140px ;
     align-items: center;
     row-gap: 100px;
+    
 }
 
 .logo {
@@ -22,6 +23,7 @@ body {
     color: #F9FAF8;
     font-weight: bold;
     justify-content: flex-start;
+    flex: 0 0 50%;
 }
 
 ul {
@@ -29,8 +31,6 @@ ul {
     list-style: none;
     justify-content: flex-end;
     column-gap: 20px;
-    
-    
 }
 
 a  {
@@ -62,11 +62,12 @@ a  {
 }
 .list {
     
-    flex: 1 1 50%;
+    flex: 1 0 50%;
     
 }
 .content {
     flex: 0 0 40%;
+    
 }
 
 button {
@@ -75,8 +76,8 @@ button {
     border-radius: 15px;
     background-color: royalblue;
     color: white;
-    font-weight: 700;
-    font-size: large;
+    font-weight: 600;
+    font-size: 16px;
     border: none
     
 }
@@ -90,7 +91,6 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 
 .section-1 {
@@ -154,7 +154,6 @@ button {
     color: #1F2937;
     font-style: italic;
     font-weight: 200;
-
 }
 
 .signature {
@@ -165,3 +164,44 @@ button {
     padding-right: 20px;
 }
 
+.section-3 {
+    background-color: white;
+    padding: 80px 0px;
+}
+
+.container {
+    width: 1030px;
+    background-color: #3882F6;
+    margin: auto;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.words-bold {
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+    
+}
+
+.more-words {
+    color:#c5c9cf;
+}
+.second-button {
+    border: 2px solid white;
+    background-color: #3882F6;
+}
+
+.footer {
+    background-color: #1F2937;
+    height: 100px;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+}
